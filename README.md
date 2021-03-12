@@ -1,5 +1,5 @@
-# java-interview-assignment
-Java Backend Developer Interview
+# java-interview-test
+#### Java Backend Developer Interview
 
 #### Solution to the below question 
 
@@ -24,7 +24,7 @@ Amaka passed A and B into the encodeArray function. After that she discarded arr
 
 Now in her 15th birthday Amaka wants to play with those arrays again. She found the modified version of array A in the hard-drive but she forgot how to recover the original arrays from it.
 
-a.	Help Amaka recover the original arrays
+a.	Help Amaka recover the original arrays.
 b.	Specify the classification of the algorithm used in terms of BigO.
 
 #### Preview

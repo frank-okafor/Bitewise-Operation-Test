@@ -8,7 +8,6 @@ Amaka is a little girl who loves playing with array. In her 10th birthday, she g
 Amaka’s hard-drive is almost full of presents and she barely has any space to keep the arrays. She discovered a brilliant function to merge the array into one:
 
 ```json
-{
 	int encodeInteger(int x, int n){
 		n = n<<(1<<(1<<(1<<1)));
 		x = x | n;
@@ -19,7 +18,6 @@ Amaka’s hard-drive is almost full of presents and she barely has any space to ke
 	    	    A[i] = encodeInteger(A[i], B[i]);
 		}
 	}
-}
 ```
 
 Amaka passed A and B into the encodeArray function. After that she discarded array B and saved the modified version of array A in the hard-drive.

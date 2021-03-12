@@ -8,14 +8,16 @@ Amaka is a little girl who loves playing with array. In her 10th birthday, she g
 Amaka’s hard-drive is almost full of presents and she barely has any space to keep the arrays. She discovered a brilliant function to merge the array into one:
 
 ```json
-int encodeInteger(int x, int n){
-	n = n<<(1<<(1<<(1<<1)));
-	x = x | n;
-	return x;
-}
-void encodeArray(int []A, int []B, int n){
-	for(int i=0;i<n;i++) {
-    	    A[i] = encodeInteger(A[i], B[i]);
+{
+	int encodeInteger(int x, int n){
+		n = n<<(1<<(1<<(1<<1)));
+		x = x | n;
+		return x;
+	}
+	void encodeArray(int []A, int []B, int n){
+		for(int i=0;i<n;i++) {
+	    	    A[i] = encodeInteger(A[i], B[i]);
+		}
 	}
 }
 ```
